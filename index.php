@@ -13,7 +13,8 @@ if(isset($_SESSION['user_name'])){
 </head>
 <body>
 	<p>Hello <?php echo $name ?>!</p>
-	<p><a href="set-name.php">Set my name</a>
+	<p><a href="set-name.php">Set my name</a></p>
+	<p><a href="articles.php">View articles</a></p>
 	<p>Server ip: <?php echo $_SERVER['SERVER_ADDR'];?></p>
 </body>
 </html>
