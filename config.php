@@ -5,6 +5,8 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 		const  DB_USERNAME = "root";
 		const  DB_PASSWORD = "aberdeen";
 		const  DB_NAME = "test";
+		const  SITE_EMAIL = "info@flipshark.co.uk";
+		const  SITE_EMAIL_PASS = "aberdeen31";
 	}
 }else{
 	class Config{
@@ -12,5 +14,7 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 		const  DB_USERNAME = "root";
 		const  DB_PASSWORD = "aberdeen";
 		const  DB_NAME = "test";
+		const  SITE_EMAIL = "info@flipshark.co.uk";
+		const  SITE_EMAIL_PASS = "aberdeen31";
 	}
 }

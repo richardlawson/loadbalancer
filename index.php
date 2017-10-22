@@ -15,6 +15,7 @@ if(isset($_SESSION['user_name'])){
 	<p>Hello <?php echo $name ?>!</p>
 	<p><a href="set-name.php">Set my name</a></p>
 	<p><a href="articles.php">View articles</a></p>
+	<p><a href="contact.php">Contact Us</a></p>
 	<p>Server ip: <?php echo $_SERVER['SERVER_ADDR'];?></p>
 </body>
 </html>
