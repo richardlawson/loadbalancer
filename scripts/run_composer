@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo chown -R ec2-user:ec2-user /var/www/html/scripts
 sudo chmod -R 755 /var/www/html/scripts
-composer install -d /var/www/html
+/var/local/bin/composer install -d /var/www/html
