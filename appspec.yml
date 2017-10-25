@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/html/
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/run_composer
       timeout: 300
       runas: ec2-user
