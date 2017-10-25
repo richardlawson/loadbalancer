@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /var/www/html
-composer install
+composer install -d /var/www/html
